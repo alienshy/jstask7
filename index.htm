@@ -11,24 +11,25 @@
 <body>
     <section>
         <div class="fin">
-        <div class="divimdi">
-            <h1>Yaz ve elave et</h1>
-        </div>
-        <header id="adsoyaducun">
-            <label for="adsoyad">Ad soyad:</label>
-            <input type="text" id="adsoyad" name="adsoyad" required>
-            <label for="yas">Yas:</label>
-            <input type="number" id="yas" name="yas" required>
-            <button type="button" onclick="addPerson()">elave et</button>
-        </header>
+            <div class="divimdi">
+                <h1>Yaz ve elave et</h1>
+            </div>
+            <header id="adsoyaducun">
+                <label for="ad">Ad:</label>
+                <input type="text" id="ad" name="ad" required>
+                <label for="soyad">Soyad:</label>
+                <input type="text" id="soyad" name="soyad" required>
+                <label for="yas">Yas:</label>
+                <input type="number" id="yas" name="yas" required>
+                <button type="button" onclick="addPerson()">elave et</button>
+            </header>
 
-        <table id="adyasalt">
-            <tr>
-                <th>Ad soyad</th><th>,</th>
-                <th>ve Yas</th>
-            </tr>
-        </table>
-</div>
+            <table id="adyasalt">
+                <tr>
+                    <th>Ad , Soyad , yas</th>
+                </tr>
+            </table>
+        </div>
         <script src="script.js"></script>
     </section>
 </body>
